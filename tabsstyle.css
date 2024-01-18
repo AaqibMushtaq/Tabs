@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background-image: url(/img.jpg);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+section {
+  padding: 100px 0 0 0;
+}
+.title {
+  text-align: center;
+  margin-bottom: 100px;
+  color: white;
+  font-size: 20px;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.146);
+  width: 100%;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 100vh;
+  height: 50vh;
+  background: transparent;
+  backdrop-filter: blur(6px);
+  background-color: rgba(255, 255, 255, 0.146);
+  padding: 20px 5px;
+  border-radius: 12px;
+  gap: 10px;
+  filter: drop-shadow(0 0 0.75rem rgb(0, 0, 0));
+}
+.about-image img {
+  object-fit: contain;
+  width: 45vh;
+  height: 45vh;
+  border-radius: 20px;
+}
+img {
+  mix-blend-mode: multiply;
+}
+.contents {
+  padding: 10px 25px;
+  font-size: 20px;
+  display: none;
+}
+button {
+  display: flex;
+  align-items: center;
+  border: none;
+  background: transparent;
+  font-size: 20px;
+  padding: 0 25px;
+  font-weight: 700;
+  width: 100%;
+  border-bottom: 2px solid rgb(255, 255, 255);
+  line-height: 1;
+  color: #b6bebd;
+  text-shadow: 0px -4px 3px black;
+}
+button:hover {
+  color: rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
+button.active:hover {
+  color: #ffd43b;
+  border-bottom: none;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.active {
+  display: block;
+}
+button.active {
+  color: #ffd43b;
+  border-bottom: none;
+}
+.about {
+  width: 45vh;
+  border-radius: 5%;
+  height: 100%;
+  background: transparent;
+}
+h4 {
+  color: #ffd43b;
+  font-size: 30px;
+  padding-bottom: 20px;
+  background: transparent;
+  text-shadow: white;
+}
+p {
+  line-height: 2;
+  background: transparent;
+}
+.about p {
+  color: white;
+  line-height: 2;
+  background: transparent;
+}

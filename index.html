@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <link rel="stylesheet" href="/tabsstyle.css" />
+  </head>
+  <body>
+    <section>
+      <div class="title">
+        <h2>About</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, quam.
+        </p>
+      </div>
+      <div class="main-container">
+        <article class="about-image">
+          <img src="/astro.png" alt="" />
+        </article>
+        <article class="about">
+          <div class="button-container">
+            <button class="tab-button active" data-id="history">History</button>
+            <button class="tab-button" data-id="vision">vision</button>
+            <button class="tab-button" data-id="goals">Goals</button>
+          </div>
+          <div class="about-content">
+            <div class="contents active" id="history">
+              <h4>History</h4>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente, voluptate!
+              </p>
+            </div>
+            <div class="contents" id="vision">
+              <h4>vision</h4>
+              <p>
+                2 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente, voluptate!
+              </p>
+            </div>
+            <div class="contents" id="goals">
+              <h4>Goals</h4>
+              <p>
+                3 Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Sapiente, voluptate!
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+    <script src="/tabsscript.js"></script>
+  </body>
+</html>
